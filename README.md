@@ -64,5 +64,6 @@ El archivo plano con donde queda registrado el tiempo de respuesta de cada reque
 
 ![image](https://github.com/wildergallego/TektonAPI/assets/59023933/b5306ae2-8eeb-4774-a613-5fb89518f9f0)
 
+Resultado de ejecución por Postman del método GetById (GET):
 
-
+![image](https://github.com/wildergallego/TektonAPI/assets/59023933/4e166e95-dc1c-4c9f-b3ab-6736800d8a91)
