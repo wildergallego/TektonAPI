@@ -51,6 +51,9 @@ FOR ATTACH;
 ![image](https://github.com/wildergallego/TektonAPI/assets/59023933/2e275752-ba4a-47f5-ab6b-eac8c53712c3)
 
 
+Tras esta configuración se puede correr la API desde Visual Studio 2022 y se debe ver así en swagger:
+
+![image](https://github.com/wildergallego/TektonAPI/assets/59023933/f48b003a-dcc6-40c7-9332-b4f9b5e78112)
 
 
 
