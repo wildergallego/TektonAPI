@@ -62,5 +62,7 @@ El archivo plano con donde queda registrado el tiempo de respuesta de cada reque
 
 ![image](https://github.com/wildergallego/TektonAPI/assets/59023933/dedad193-4433-4ee7-a8dc-ce7028657b07)
 
+![image](https://github.com/wildergallego/TektonAPI/assets/59023933/b5306ae2-8eeb-4774-a613-5fb89518f9f0)
+
 
 
