@@ -22,4 +22,14 @@ sqllocaldb create Tekton -s
 ```
 ![image](https://github.com/wildergallego/TektonAPI/assets/59023933/063045ee-fe45-408e-b11d-4b956ed93d4b)
 
+3) Luego en Visual Studio 2022, en el "SQL Server Object Explorer" se agrega una nueva conexión a SQL Server, seleccionando la instancia que creamos en el punto anterior llamada "Tekton", así:
+
+![image](https://github.com/wildergallego/TektonAPI/assets/59023933/d7950123-6404-483c-a0ed-3eb4536b8c11)
+
+Luego,
+
+![image](https://github.com/wildergallego/TektonAPI/assets/59023933/1b5a89eb-48bb-4844-b9bd-cc50be34d5c0)
+
+
+
 
