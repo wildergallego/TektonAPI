@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DataBusiness\**" />
+    <Compile Remove="DataLayer\**" />
+    <Content Remove="DataBusiness\**" />
+    <Content Remove="DataLayer\**" />
+    <EmbeddedResource Remove="DataBusiness\**" />
+    <EmbeddedResource Remove="DataLayer\**" />
+    <None Remove="DataBusiness\**" />
+    <None Remove="DataLayer\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.4.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="xunit" Version="2.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_GlobalJsonStartingDir Remove="DataLayer\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_GlobalJsonStartingDir Remove="DataBusiness\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="DataBusiness\BusinessLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AppLog\" />
+  </ItemGroup>
+
+</Project>
