@@ -3,10 +3,12 @@ Implementación del challenge propuesto por Tekton creando un rest API en .Net C
 
 - Se implementó el patrón Repository y Singleton para accesar a la Base de Datos y para implementar filtros de servicios en los endpoint para registar los tiempos de ejecución, así como Inyección de Dependencias para los servicios del API
 - Se aplicaron principios SOLID y Clean Code para el diseño y creación de las clases así como para el nombramiento de variables, clases, etc.
+- Se crearon los 3 endpoints propuestos (GET, POST y PUT) para el maestro de productos y se creó el archivo plano donde queda registrado el tiempo de respuesta de cada request usando IAsyncActionFilter y ILogger estableciendo el ServiceFilter en la defición de cada endpoint
 - Se utilizó DataAnnotations y FluentValidation para realizar las validaciones de los datos que llegan a cada Request de los endpoint
 - Con LazyCache se implementó el diccionario de estados del producto (refresh cada 5 minutos)
 - Para grabar la información del producto localmente se utilizó LocalDB de SQLServer Express ya que requiere un conjunto mínimo de archivos para iniciar el Motor de base de datos de SQL Server en la máquina cliente
 - Se implementaron diferentes HTTP Status Codes en las respuestas de cada EndPoint, asegurando que describan el resultado obtenido
+- Los porcentaje de descuento se obtienen del siguiente servicio extreno creado --> https://666ee659f1e1da2be5216f0b.mockapi.io/api/tekton/DiscountByProductId/
 - Se estructuró el proyecto por capas (Datos, negocio y presentación (API Controllers))
 - Se sube el poyecto a GitHub en repositorio público
 
