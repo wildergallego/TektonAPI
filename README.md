@@ -32,21 +32,23 @@ Luego,
 
 4) Finalmente, debemos hacer el attach de la base de datos de sql server (archivos .mdf y .ldf incluidos en la carpeta DataLayer\LocalDB del proyecto Tekton) a la instancia SQL que acabamos de crear, ejecutando el siguiente comando en una nueva ventana de query de SQLServer, así:
 
-![image](https://github.com/wildergallego/TektonAPI/assets/59023933/349cfdae-e56c-40c8-9cf2-6c6f8b3c20b8)
-
 ![image](https://github.com/wildergallego/TektonAPI/assets/59023933/19346fdd-0df9-43ce-af26-eefa56aae15f)
 
 ```sql
-	USE master
-	CREATE DATABASE ProductsDB
-	ON (FILENAME = 'G:\TektonAPI\Tekton\DataLayer\LocalDB\ProductsDB.mdf'), --Se debe reemplazar "G:\TektonAPI" por la ruta donde se descargó el proyecto
-	(FILENAME = 'G:\TektonAPI\Tekton\DataLayer\LocalDB\ProductsDB.ldf') --Se debe reemplazar "G:\TektonAPI" por la ruta donde se descargó el proyecto
-	FOR ATTACH;
+USE master
+CREATE DATABASE ProductsDB
+ON (FILENAME = 'G:\TektonAPI\Tekton\DataLayer\LocalDB\ProductsDB.mdf'), --Se debe reemplazar "G:\TektonAPI" por la ruta donde se descargó el proyecto
+(FILENAME = 'G:\TektonAPI\Tekton\DataLayer\LocalDB\ProductsDB.ldf') --Se debe reemplazar "G:\TektonAPI" por la ruta donde se descargó el proyecto
+FOR ATTACH;
 ```
 
 5) Luego se hace refresh y ya debe aparecer la base de datos SQL Server local, lista para ser usada por el API
 
-![image](https://github.com/wildergallego/TektonAPI/assets/59023933/cc8b8cf8-26a3-48c6-a6cf-7f7d0d3b28f6)
+![image](https://github.com/wildergallego/TektonAPI/assets/59023933/8e20ac6b-f957-4773-8e8e-746b5c3e4ef5)
+
+![image](https://github.com/wildergallego/TektonAPI/assets/59023933/2e275752-ba4a-47f5-ab6b-eac8c53712c3)
+
+
 
 
 
