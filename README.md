@@ -30,7 +30,7 @@ Luego,
 
 ![image](https://github.com/wildergallego/TektonAPI/assets/59023933/1b5a89eb-48bb-4844-b9bd-cc50be34d5c0)
 
-4) Finalmente, debemos hacer el attach de la base de datos de sql server (archivos .mdf y .ldf incluidos en la carpeta DataLayer\LocalDB del proyecto Tekton) a la instancia SQL que acabamos de crear, ejecutando el siguiente comando en una nueva ventana de query de SQLServer, así:
+4) Finalmente, debemos hacer el attach de la base de datos de sql server (archivos .mdf y .ldf incluidos en la carpeta DataLayer\LocalDB del proyecto Tekton) a la instancia SQL que acabamos de crear, ejecutando el siguiente comando en una nueva ventana de query de SQLServer en Visual Studio 2022, así:
 
 ![image](https://github.com/wildergallego/TektonAPI/assets/59023933/19346fdd-0df9-43ce-af26-eefa56aae15f)
 
