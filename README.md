@@ -12,11 +12,14 @@ Implementación del challenge propuesto por Tekton creando un rest API en .Net C
 
  Se crea este archivo README.md con las siguientes instrucciones para levantar el proyecto localmente, así:
 
-# 1) Se descarga e instala LocalDB de SQL Server 2019 Express Edition desde el sgte link
+1) Se descarga e instala LocalDB de SQL Server 2019 Express Edition desde el sgte link
 https://download.microsoft.com/download/7/c/1/7c14e92e-bdcb-4f89-b7cf-93543e7112d1/SqlLocalDB.msi
 
-# 2) Se descarga e instala LocalDB de SQL Server 2019 Express Edition desde el sgte link
+2) Se descarga e instala LocalDB de SQL Server 2019 Express Edition desde el sgte link
 Por medio de la línea de comandos (en modo Administrador) se crea una instancia de SQLServer llamada "Tekton" y se inicia (con el comando -s) para utilizarla de inmediato
+```bash
+sqllocaldb create Tekton -s
+```
 ![image](https://github.com/wildergallego/TektonAPI/assets/59023933/063045ee-fe45-408e-b11d-4b956ed93d4b)
 
 
