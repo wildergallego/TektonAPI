@@ -58,6 +58,9 @@ Tras esta configuración se puede correr la API desde Visual Studio 2022 y se de
 ![image](https://github.com/wildergallego/TektonAPI/assets/59023933/f48b003a-dcc6-40c7-9332-b4f9b5e78112)
 
 
+El archivo plano con donde queda registrado el tiempo de respuesta de cada request se genera en la carpeta "AppLog":
+
+![image](https://github.com/wildergallego/TektonAPI/assets/59023933/dedad193-4433-4ee7-a8dc-ce7028657b07)
 
 
 
